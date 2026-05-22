@@ -1,0 +1,21 @@
+{
+  "name": "law-search",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "process-laws": "node scripts/process-laws.js"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "@anthropic-ai/sdk": "^0.39.0",
+    "iconv-lite": "^0.6.3",
+    "vite": "^5.4.0"
+  }
+}
